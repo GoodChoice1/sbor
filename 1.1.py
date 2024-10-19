@@ -8,6 +8,7 @@ import numpy as np
 
 # Генерация случайной квадратной матрицы 12x12
 matrix = np.random.randint(1, 100, (12, 12))
+print(matrix)
 
 # Находим индексы минимального и максимального элементов
 min_idx = np.unravel_index(np.argmin(matrix), matrix.shape)
